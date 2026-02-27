@@ -28,7 +28,7 @@ class FormController{
         this.#manager = manager
         this.#formFieldElemList = []
 
-        createForm((form) => {
+        this.#form = createForm((form) => {
             document.body.appendChild(form)
             for (const i of formFieldList)
                 this.#formFieldElemList.push(new FormField(i.id, i.name, i.label, i.required, form))

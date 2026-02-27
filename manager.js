@@ -8,7 +8,7 @@
 
 class Manager{
     /**
-     * @type {RowspanType[] | ColorspanType[]}
+     * @type {RowspanType[] | ColspanType[]}
      */
     #dataArray
     /**
@@ -28,6 +28,7 @@ class Manager{
     }
 
     /**
+     * 
      * @param {RowspanType | ColspanType} row 
      * @returns {void}
      */

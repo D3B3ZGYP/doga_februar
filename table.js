@@ -3,7 +3,7 @@
  * 
  * @callback TableCallback
  * @param {HTMLTableSectionElement} tbody
- * @param {ColspanType | RowspanType}
+ * @param {ColspanType | RowspanType} data
  * @returns {void}
  */
 
@@ -38,6 +38,7 @@ class Table{
     }
 
     /**
+     * 
      * @param {TableCallback} callback 
      * @returns {void}
      */
